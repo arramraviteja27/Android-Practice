@@ -104,6 +104,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize()
                 ) { innerPadding ->
 
+                    // first commit in git
+
                     DataStoreScreen(modifier = Modifier.padding(innerPadding))
 
 //                    CameraPreview(controller, Modifier.fillMaxSize().padding(innerPadding))
