@@ -72,8 +72,17 @@ fun SignUpScreen(modifier: Modifier = Modifier) {
     }
 }
 
-fun validation(email : String , pswrd : String ){
+fun isValidation(email : String , pswrd : String ) : Boolean{
 
-    
+    if(email.isEmpty() || pswrd.isEmpty()){
+
+        return false
+    }else if(pswrd.length < 6){
+
+        return false
+    }else{
+
+        return true
+    }
 
 }
