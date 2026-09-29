@@ -62,3 +62,9 @@ fun SignUpScreen(modifier: Modifier = Modifier) {
 
     }
 }
+
+fun validation(email : String , pswrd : String ){
+
+    
+
+}
